@@ -1,0 +1,10 @@
+A consumer wants to read messages from partitions 0 and 1 of a topic topic1. Code snippet is shown below.
+
+        consumer.subscribe(Arrays.asList(“topic1”));
+        List<TopicPartition> pc = new ArrayList<>();
+        pc.add(new PartitionTopic(“topic1”, 0));
+        pc.add(new PartitionTopic(“topic1”, 1));
+        consumer.assign(pc);
+
+1. This works fine 
+2. Throws IllegalException
