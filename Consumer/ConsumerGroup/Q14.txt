@@ -1,0 +1,7 @@
+Which actions will trigger partition rebalance for a consumer group? (select three)
+
+1. add the broker to the cluster
+2. remove the broker from the cluster
+3. add a new consumer to the consumer group
+4. Incraese partition of the topic
+5. A consumer in consumer group shut down
