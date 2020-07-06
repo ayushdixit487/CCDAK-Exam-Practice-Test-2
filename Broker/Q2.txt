@@ -1,0 +1,4 @@
+Once sent to a topic, a message can be modified'
+
+1. Yes
+2. No
