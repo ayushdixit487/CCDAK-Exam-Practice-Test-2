@@ -1,0 +1,6 @@
+Kafka is configured with following parameters - log.retention.hours = 168 log.retention.minutes = 168 log.retention.ms = 168
+How long will the messages be retained for?
+
+1. 168ms
+2. 168 mins
+3. 168 hours
