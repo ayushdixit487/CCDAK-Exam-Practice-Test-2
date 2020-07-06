@@ -1,0 +1,2 @@
+Explanation
+Rebalance occurs when a new consumer is added, removed or consumer dies or paritions increased.
