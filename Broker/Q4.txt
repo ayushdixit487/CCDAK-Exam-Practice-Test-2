@@ -1,0 +1,5 @@
+The Controller is a broker that is... (select two)
+
+1 . elected by broker majority.
+2. elected by zookeeper ensemble.
+3. is responsible for partion leader election.
