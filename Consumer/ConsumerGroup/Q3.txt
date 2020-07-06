@@ -1,0 +1,5 @@
+When using the Confluent Kafka Distribution, where does the schema registry reside?
+
+1. As an in-memory plugin on kafka broker.
+2. As an in-memory plugin on kafka connect worker.
+3. As a seprate JVM comopent.
