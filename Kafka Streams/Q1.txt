@@ -1,0 +1,6 @@
+We have a store selling shoes. What dataset is a great candidate to be modeled as a KTable in Kafka Streams?
+
+1. Money made until now . 
+2. Items returned
+3. Transction streams.
+4. Inventory Content right now.
