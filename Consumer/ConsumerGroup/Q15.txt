@@ -1,0 +1,20 @@
+while (true) {
+        ConsumerRecords<String, String> records = consumer.poll(100);
+         try {
+          consumer.commitSync();
+        } catch (CommitFailedException e) {
+            log.error("commit failed", e)
+        }
+        for (ConsumerRecord<String, String> record : records)
+        {
+            System.out.printf("topic = %s, partition = %s, offset =
+              %d, customer = %s, country = %s\n",
+                 record.topic(), record.partition(),
+                 record.offset(), record.key(), record.value());
+        }
+}
+What kind of delivery guarantee this consumer offers?
+
+1. At-most once
+2. Exactly once
+3. At-least once
