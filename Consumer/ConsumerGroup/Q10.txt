@@ -1,0 +1,7 @@
+A consumer sends a request to commit offset 2000. There is a temporary communication problem, 
+so the broker never gets the request and therefore never responds. Meanwhile, 
+the consumer processed another batch and successfully committed offset 3000. What should you do?
+
+1. Nothing 
+2. Add a new consumer
+3.  Restart the consumer.
