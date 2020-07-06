@@ -1,0 +1,6 @@
+A topic has three replicas and you set min.insync.replicas to 2. 
+If two out of three replicas are not available, what happens when a consume request is sent to broker?
+
+1. Data will be returned from the remaninig insync replicas.
+2. An empty message will be returned.
+3. A new leader of the partition will be elected.
