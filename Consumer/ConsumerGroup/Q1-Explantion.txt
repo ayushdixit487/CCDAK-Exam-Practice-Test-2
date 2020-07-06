@@ -1,0 +1,4 @@
+Explanation
+
+auto.offset.reset=none means that the consumer will crash if the offsets it's 
+recovering from have been deleted from Kafka, which is the case here, as 10 < 45
