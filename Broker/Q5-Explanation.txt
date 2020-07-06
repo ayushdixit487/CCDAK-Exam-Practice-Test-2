@@ -1,0 +1,5 @@
+Explanation
+
+Once the client connects to any broker, it is connected to the entire cluster and in case of leadership changes,
+the clients automatically do a Metadata Request to an available broker to find out who is the new leader for the topic. 
+Hence the producer will automatically keep on producing to the correct Kafka Broker
