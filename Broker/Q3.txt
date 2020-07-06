@@ -1,0 +1,5 @@
+How often is log compaction evaluated?
+
+1. Every time a message is sent to kafka.
+2. Every time a new partition is created.
+3. Evert time a segment is closed.
