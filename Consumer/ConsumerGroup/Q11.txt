@@ -1,0 +1,7 @@
+There are 3 producers writing to a topic with 5 partitions. 
+There are 10 consumers consuming from the topic as part of the same group. How many consumers will remain idle?
+
+1.  3
+2.  5
+3.  10 
+4.  none
