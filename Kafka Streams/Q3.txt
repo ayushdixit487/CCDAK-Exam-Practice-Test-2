@@ -1,0 +1,17 @@
+StreamsBuilder builder = new StreamsBuilder();
+        KStream<String, String> textLines = builder.stream("word-count-input");
+        KTable<String, Long> wordCounts = textLines
+                .mapValues(textLine -> textLine.toLowerCase())
+                .flatMapValues(textLine -> Arrays.asList(textLine.split("\\W+")))
+                .selectKey((key, word) -> word)
+                .groupByKey()
+                .count(Materialized.as("Counts"));
+        wordCounts.toStream().to("word-count-output", Produced.with(Serdes.String(), Serdes.Long()));
+        builder.build();
+        
+        What is an adequate topic configuration for the topic word-count-output?
+        
+        1. compression.type = Iz4
+        2. cleanup.policy = delete
+        3. cleanup.policy = compress
+    
