@@ -1,0 +1,6 @@
+An ecommerce website maintains two topics - a high volume "purchase" topic with 5 partitions and low volume "customer" topic with 3 partitions.
+You would like to do a stream-table join of these topics. How should you proceed?
+
+1. Do a KStream/KTable Join after repartition.
+2. Repartition topic to have 5 partition.
+3. Model Customer as a GlobalKTable.
