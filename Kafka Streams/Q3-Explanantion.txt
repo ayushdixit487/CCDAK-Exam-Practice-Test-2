@@ -1,0 +1,4 @@
+Explanation
+
+Result is aggregated into a table with key as the unique word and value its frequency.
+We have to enable log compaction for this topic to align the topic's cleanup policy with KTable semantics.
