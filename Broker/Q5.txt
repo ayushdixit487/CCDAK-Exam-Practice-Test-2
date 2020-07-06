@@ -1,0 +1,6 @@
+A producer application was sending messages to a partition with a replication factor of 2 by connecting to Broker 1 that was hosting partition leader. 
+If the Broker 1 goes down, what will happen?
+
+1. The topic will be unavliable.
+2. The producer will stop working.
+3. The producer will automatically produce to broker that has been elected leader.
