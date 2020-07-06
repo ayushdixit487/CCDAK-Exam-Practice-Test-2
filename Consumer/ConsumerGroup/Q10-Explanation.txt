@@ -1,0 +1,4 @@
+Explanation
+
+In this case, because the offset 3000 has been committed and all the messages between 0 and 3000 have all been processed, 
+it is okay not to have committed offset 2000. The right answer is to do "nothing", this behaviour is acceptable
