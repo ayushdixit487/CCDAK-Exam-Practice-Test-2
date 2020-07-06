@@ -1,0 +1,7 @@
+You are doing complex calculations using a machine learning framework on records fetched from a Kafka topic. 
+It takes more about 6 minutes to process a record batch, 
+and the consumer enters rebalances even though it's still running. How can you improve this scenario?
+
+1. Increase.max.poll.interval.ms to 60000
+2. Increase.session.interval.ms to 60000
+3. Increase.hearbeat.ms to 60000
