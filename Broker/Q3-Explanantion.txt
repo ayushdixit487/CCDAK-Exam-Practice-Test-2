@@ -1,0 +1,4 @@
+Explanation
+
+Log compaction is evaluated every time a segment is closed. 
+It will be triggered if enough data is "dirty" (see dirty ratio config)
