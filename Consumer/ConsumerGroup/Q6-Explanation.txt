@@ -1,0 +1,4 @@
+Explanation
+
+Setting a group.id that's consistent across restarts will allow your consumers part of the same group to
+resume reading from where offsets were last committed for that group
