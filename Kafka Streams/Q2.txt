@@ -1,0 +1,6 @@
+To transform data from a Kafka topic to another one, I should use 
+
+1. consumer + producer.
+2. Kafka ConnectSsource
+3. Kafka Connect Sink
+4. Kafka Streams.
