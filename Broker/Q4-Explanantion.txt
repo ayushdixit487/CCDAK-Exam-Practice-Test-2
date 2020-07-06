@@ -1,0 +1,4 @@
+Explanation
+
+Controller is a broker that in addition to usual broker functions is responsible for partition leader election. 
+The election of that broker happens thanks to Zookeeper and at any time only one broker can be a controller
