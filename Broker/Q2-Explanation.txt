@@ -1,0 +1,3 @@
+Explanation
+
+Kafka logs are append-only and the data is immutable
