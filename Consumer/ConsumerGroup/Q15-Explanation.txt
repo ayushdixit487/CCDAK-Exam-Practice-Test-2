@@ -1,0 +1,2 @@
+Explanation
+Here offset is committed before processing the message. If consumer crashes before processing the message, message will be lost when it comes back up.
