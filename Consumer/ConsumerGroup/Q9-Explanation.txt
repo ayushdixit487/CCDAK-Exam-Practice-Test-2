@@ -1,0 +1,5 @@
+Explanation
+
+subscribe() and assign() cannot be called by the same consumer,
+subscribe() is used to leverage the consumer group mechanism, 
+while assign() is used to manually control partition assignment and reads assignment
