@@ -1,0 +1,6 @@
+A Zookeeper ensemble contains 5 servers. What is the maximum number of servers that can go missing and the ensemble still run?
+
+1. 2
+2. 3 
+3. 1
+4  3
