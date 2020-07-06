@@ -1,0 +1,4 @@
+Explanation
+
+The high watermark is an advanced Kafka concept, and is advanced once all the ISR replicates the latest offsets. 
+A consumer can only read up to the value of the High Watermark (which can be less than the highest offset, in the case of acks=1)
