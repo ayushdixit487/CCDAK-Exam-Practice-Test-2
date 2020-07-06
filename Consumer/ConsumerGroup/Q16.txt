@@ -1,0 +1,6 @@
+A producer just sent a message to the leader broker for a topic partition. 
+The producer used acks=1 and therefore the data has not yet been replicated to followers. Under which conditions will the consumer see the message?
+
+1. When the High Watermark has advance
+2. Right away
+3. Never the produce request will fail
