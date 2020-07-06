@@ -1,0 +1,6 @@
+Select the Kafka Streams joins that are always windowed joins.
+
+1. Kafka-streams -- Kafka-streams.
+2. kafka-streams -- KTable
+3. KTable -- KTable 
+
