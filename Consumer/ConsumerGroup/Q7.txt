@@ -1,0 +1,5 @@
+How does a consumer commit offsets in Kafka?
+
+1. It directly commit the offsets in zookeeper.
+2. It directly send the message __consumer_offset
+3. It interact with the group coordinator broker.
