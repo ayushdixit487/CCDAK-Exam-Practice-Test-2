@@ -1,0 +1,5 @@
+In Kafka Streams, by what value are internal topics prefixed by?
+
+1. application.id
+2. kafka-streams
+3. group.id
