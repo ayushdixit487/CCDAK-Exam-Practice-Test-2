@@ -1,0 +1,4 @@
+Explanation
+
+Consumers do not directly write to the __consumer_offsets topic, they instead interact with a broker 
+that has been elected to manage that topic, which is the Group Coordinator broker
