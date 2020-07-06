@@ -1,0 +1,9 @@
+In the Kafka consumer metrics it is observed that fetch-rate is very high and each fetch is small. What steps will you take to increase throughput?
+
+1. Increase fetch.min.bytes
+
+2. Increase fetch.max.bytes
+
+3. Decrease fetch.max.bytes
+
+4. Decrease fetch.min.bytes
