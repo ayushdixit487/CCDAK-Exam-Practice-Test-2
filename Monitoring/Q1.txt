@@ -1,0 +1,5 @@
+You are building a consumer application that processes events from a Kafka topic. What is the most important metric to monitor to ensure real-time processing?
+
+1. Message InPerSec
+2. bytes InPerSec
+3. records-lag-max
