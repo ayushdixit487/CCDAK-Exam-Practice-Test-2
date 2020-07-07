@@ -1,0 +1,5 @@
+Your topic is log compacted and you are sending a message with the key K and value null. What will happen?
+
+1. The message will be ignored by the kafka broker.
+2. The producer will throw run time Exception.
+3. The broker will delete all the mesages of the Key K on cleanup.
