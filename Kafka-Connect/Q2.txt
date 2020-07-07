@@ -1,0 +1,7 @@
+You are using JDBC source connector to copy data from 3 tables to three Kafka topics. 
+There is one connector created with max.tasks equal to 2 deployed on a cluster of 3 workers. How many tasks are launched?
+
+1.  1
+2. 3
+3. 6
+4. 2
