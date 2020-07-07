@@ -1,0 +1,2 @@
+Explanation
+Producer idempotence helps prevent the network introduced duplicates. More details here: https://cwiki.apache.org/confluence/display/KAFKA/Idempotent+Producer
