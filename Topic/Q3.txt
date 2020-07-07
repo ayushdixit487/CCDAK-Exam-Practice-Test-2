@@ -1,0 +1,5 @@
+Compaction is enabled for a topic in Kafka by setting log.cleanup.policy=compact. What is true about log compaction?
+
+1. Each message stored in the topic is compressed
+2. Compaction changes the offset of the message
+3. After Cleanup , only one message per key is retained with the latest value
