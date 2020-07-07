@@ -1,0 +1,2 @@
+Explanation
+If a group is not specified, the kafka-console-consumer generates a random consumer group.
