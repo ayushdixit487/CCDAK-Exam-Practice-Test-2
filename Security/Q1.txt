@@ -1,0 +1,8 @@
+A producer application in a developer machine was able to send messages to a Kafka topic. 
+After copying the producer application into another developer's machine, 
+the producer is able to connect to Kafka but unable to produce to the same Kafka topic because of an authorization issue.
+What is the likely issue?
+
+1. The kafka broker needs to be rebooted
+2. The Kafka ACL does not allow another machine IP.
+3. Broker configurations needs to be changed to allow a diffrent producer
