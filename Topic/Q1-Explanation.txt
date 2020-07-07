@@ -1,0 +1,3 @@
+Explanation
+Only one of the replicas is elected as partition leader. 
+And a broker can definitely hold many partitions from the same topic on its disk, try creating a topic with 12 partitions on one broker!
