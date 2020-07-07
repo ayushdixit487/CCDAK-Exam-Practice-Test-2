@@ -1,0 +1,5 @@
+In Java, Avro SpecificRecords classes are
+
+1. Automatically generated from Avro schema
+2. Automatically generated from Avro schema + Maven/Gradle pluggin
+3. Written manullay by programmer
