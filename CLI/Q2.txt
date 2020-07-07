@@ -1,0 +1,5 @@
+Which Kafka CLI should you use to consume from a topic? 
+ 1. kafka-console
+ 2. kafka-console-consumer
+ 3. kafka-topic
+ 4. kfaka-consumer-groups
