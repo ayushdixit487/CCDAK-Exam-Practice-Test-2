@@ -1,0 +1,6 @@
+What is returned by a producer.send() call in the Java API?
+
+1. A boolean
+2. Unit
+3. Future<ProducerRecord> object
+4. Future<RecordMetaData> object
