@@ -1,0 +1,6 @@
+Explanation
+Producer idempotence helps prevent the network introduced duplicates. More details here: https://cwiki.apache.org/confluence/display/KAFKA/Idempotent+Producer
+
+1. Partition 5
+2. Partition 0
+3. Any of the topic partitions
