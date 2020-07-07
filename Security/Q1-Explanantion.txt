@@ -1,0 +1,4 @@
+Explanation
+
+ACLs take "Host" as a parameter, which represents an IP. It can be * (all IP), 
+or a specific IP. Here, it's a specific IP as moving a producer to a different machine breaks the consumer, so the ACL needs to be updated
