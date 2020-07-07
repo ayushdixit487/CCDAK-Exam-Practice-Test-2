@@ -1,0 +1,3 @@
+Explanation
+Your Zookeeper cluster needs to have an odd number of servers, and must maintain a majority of servers up to be able to vote. 
+Therefore, a 2N+1 zookeeper cluster can survive to N zookeeper being down, so here the right answer is N=2, 2*N+1=5
