@@ -1,0 +1,4 @@
+Explanation
+<p>A kafka broker automatically creates a topic under the following circumstances: <ul> 
+<li>When a producer starts writing messages to the topic</li> <li>When a consumer starts reading messages from the topic</li>
+<li>When any client requests metadata for the topic</li></ul></p>
