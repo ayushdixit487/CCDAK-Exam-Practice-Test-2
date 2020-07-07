@@ -1,0 +1,2 @@
+Explanation
+KSQL is based on Kafka Streams and allows you to express transformations in the SQL language that get automatically converted to a Kafka Streams program in the backend
