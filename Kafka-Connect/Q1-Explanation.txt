@@ -1,0 +1,2 @@
+Explanation
+You will need to set the schemas.enable parameters for the converter to false for plain text with no schema.
