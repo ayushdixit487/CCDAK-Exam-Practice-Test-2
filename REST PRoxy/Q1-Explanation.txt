@@ -1,0 +1,2 @@
+Explanation
+Protocol buffers isn't a natively supported type for the Confluent REST Proxy, but you may use the binary format instead
