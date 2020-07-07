@@ -1,0 +1,6 @@
+What is true about partitions? (select two)
+
+1. A partition has a one replica that is leader, while the others replicas are follower.
+2. A broker can have the differnt partition for the  same topic on it's disk
+3. A broker can have the  partition and the replica of topic on it's disk
+4. You can not have more partition than the no of broker in your cluster.
