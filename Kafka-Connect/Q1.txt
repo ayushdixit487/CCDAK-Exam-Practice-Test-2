@@ -1,0 +1,12 @@
+When using plain JSON data with Connect, you see the following error message:
+org.apache.kafka.connect.errors.DataException: JsonDeserializer with schemas.enable requires "schema" and "payload"
+fields and may not contain additional fields. How will you fix the error?
+
+1. set key.converter.schema.enable = true and value.converter.schemas.enable to false
+
+2.  value.converter.schemas.enable to Avro convertor
+
+3.  value.converter.schemas.enable to Json convertor
+
+4.  key.converter.schemas.enable to false
+
