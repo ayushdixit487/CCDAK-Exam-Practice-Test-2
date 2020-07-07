@@ -1,0 +1,2 @@
+Explanation
+Message with no keys will be stored with round-robin strategy among partitions.
