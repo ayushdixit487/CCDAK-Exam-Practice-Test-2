@@ -1,0 +1,6 @@
+How will you find out all the partitions without a leader?
+
+1. kafka-topic.sh--broker-list localhost:9092 --describe--under-replicated-partitions
+2. kafka-topic.sh--broker-list localhost:2181 --describe--under-replicated-partitions
+3. kafka-topic.sh--zookeeper localhost:2181 --describe--unavailable-partitions
+4. kafka-topic.sh--zookeeper localhost:9092 --describe--unavailable-partitions
