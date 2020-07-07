@@ -1,0 +1,6 @@
+What data format isn't natively available with the Confluent REST Proxy?
+
+1. protobuf
+2. binary
+3. avro 
+4. json
