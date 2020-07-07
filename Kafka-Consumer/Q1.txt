@@ -1,0 +1,5 @@
+How can you gracefully make a Kafka consumer to stop immediately polling data from Kafka and gracefully shut down a consumer application?
+
+1. Kill the consumer thread
+2. call the consumer.poll() in another thread
+3. call the consumer.wakeUp() and catch a wakeUp Exception
