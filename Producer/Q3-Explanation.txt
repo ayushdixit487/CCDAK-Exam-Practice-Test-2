@@ -1,0 +1,2 @@
+Explanation
+Callback is invoked when a broker response is received.
