@@ -1,0 +1,19 @@
+When is the onCompletion() method called?
+
+private class ProducerCallback implements Callback {
+         @Override
+        public void onCompletion(RecordMetadata recordMetadata, Exception e) {
+         if (e != null) {
+             e.printStackTrace();
+            }
+        } 
+}
+ 
+    ProducerRecord<String, String> record =
+            new ProducerRecord<>("topic1", "key1", "value1");
+    producer.send(record, new ProducerCallback()); 
+
+
+1. When send() method is  called 
+2. When message is serialized successfully
+3. when the broker response is received
