@@ -1,0 +1,7 @@
+When auto.create.topics.enable is set to true in Kafka configuration, 
+what are the circumstances under which a Kafka broker automatically creates a topic? (select three)
+
+1. Producer send message to the topic
+2. Consumer reads meassage from the topic
+3. Client request the metadata for the topic.
+4. Client Alters the no of partitions of a topic
