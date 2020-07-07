@@ -1,0 +1,7 @@
+You have a Zookeeper cluster that needs to be able to withstand the loss of 2 servers and still be able to function. 
+What size should your Zookeeper cluster have?
+
+1. 5
+2. 3
+3. 4
+4. 6
