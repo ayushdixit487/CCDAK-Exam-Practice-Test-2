@@ -1,0 +1,2 @@
+Explanation
+acks=all and min.insync.replicas=2 means we must have at least 2 brokers up for the partition to be available
