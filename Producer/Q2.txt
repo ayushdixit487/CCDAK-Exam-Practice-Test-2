@@ -1,0 +1,5 @@
+The rule "same key goes to the same partition" is true unless...
+
+1. No of producer changes
+2. No of partition changes
+3. No of replication factor changes
