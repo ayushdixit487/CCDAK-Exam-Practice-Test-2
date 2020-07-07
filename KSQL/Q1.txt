@@ -1,0 +1,5 @@
+What Java library is KSQL based on?
+
+1. Kafka-Streams
+2. Kafka Connect
+3. REST Proxy 
