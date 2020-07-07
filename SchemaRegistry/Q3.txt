@@ -1,0 +1,5 @@
+In Avro, removing a field that does not have a default is a __ schema evolution
+
+1. backward
+2. full
+3. forward
