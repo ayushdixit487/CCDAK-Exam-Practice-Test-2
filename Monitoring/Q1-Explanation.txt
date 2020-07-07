@@ -1,0 +1,2 @@
+Explanation
+This metric shows the current lag (number of messages behind the broker)
