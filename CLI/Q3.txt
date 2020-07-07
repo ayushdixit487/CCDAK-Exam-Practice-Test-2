@@ -1,0 +1,5 @@
+The kafka-console-consumer CLI, when used with the default options
+
+1. always use the same group id
+2. does not use the group id
+3. uses a random group id
