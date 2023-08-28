@@ -4,4 +4,4 @@ the consumer processed another batch and successfully committed offset 3000. Wha
 
 1. Nothing 
 2. Add a new consumer
-3.  Restart the consumer.
+3. Restart the consumer.
