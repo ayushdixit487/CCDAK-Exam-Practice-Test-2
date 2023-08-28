@@ -1,6 +1,6 @@
 To allow consumers in a group to resume at the previously committed offset, I need to set the proper value for...
 
-1. value.deserilizer.
+1. value.deserializer
 2. enable.auto.commit
 3. group.id
-4. auto.ofset.rests
+4. auto.offset.reset
