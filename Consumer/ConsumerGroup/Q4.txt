@@ -1,6 +1,6 @@
 What is returned by a producer.send() call in the Java API?.
 
-1. Future<Producer Record> object.
+1. Future<ProducerRecord> object.
 2. A boolean
 3. Unit
-4. Future<Record MetaData> 
+4. Future<RecordMetaData> 
