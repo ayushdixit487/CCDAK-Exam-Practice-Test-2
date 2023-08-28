@@ -1,5 +1,5 @@
-To read data from a topic, the following configuration is needed for the consumers
+To read data from a topic, the following configuration is needed for the consumers:
 
-1. any broker to connect , and the topic
-2. all broker ,list of topic name and partition
-3. any broker list of topic name and partition
+1. any broker to connect, and the topic
+2. all brokers, and the list of topic names and partitions
+3. any broker, and the list of topic names and partitions
